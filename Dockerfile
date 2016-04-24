@@ -1,6 +1,9 @@
 FROM php:7.0.5-fpm
 MAINTAINER clarence@skywidesoft.com
 
+# Install additional PHP modules
+RUN docker-php-ext-install pdo pdo_mysql
+
 ENV NGINX_VERSION 1.8.1-1~jessie
 
 RUN apt-key adv --keyserver hkp://pgp.mit.edu:80 --recv-keys 573BFD6B3D8FBC641079A6ABABF5BD827BD9BF62 \
