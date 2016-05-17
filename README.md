@@ -3,7 +3,7 @@ Docker image - Nginx with PHP7 and FPM
 
 ### Details
 - Nginx 1.8.1
-- PHP 7.0.5
+- PHP 7.0.6
 - PHP-FPM
 
 ### Configuration

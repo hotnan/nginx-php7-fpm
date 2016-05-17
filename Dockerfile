@@ -1,4 +1,4 @@
-FROM php:7.0.5-fpm
+FROM php:7.0.6-fpm
 MAINTAINER clarence@skywidesoft.com
 
 # Install additional PHP modules
